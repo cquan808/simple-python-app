@@ -19,7 +19,7 @@ unit = (input("(K)g or (l)bs: ")).upper()
 '''
 
 name = "Chris"
-weight = int(145)
+weight = int(143)
 unit = "l"
 unit_result = ""
 
