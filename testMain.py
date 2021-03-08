@@ -18,5 +18,5 @@ class TestMain(unittest.TestCase):
         """
         Test that lbs is converted to kg
         """
-        result = unitConverter.kg_to_lbs(145)
+        result = unitConverter.lbs_to_kg(145)
         self.assertEqual(result, 65.25)
