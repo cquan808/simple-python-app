@@ -11,12 +11,12 @@ class TestMain(unittest.TestCase):
         """
         Test that kg is converted to lbs
         """
-        result = unitConverter.kg_to_lbs(145)
-        self.assertEqual(result, 65.25)
+        result = unitConverter.kg_to_lbs(90)
+        self.assertEqual(result, 200.0)
 
     def test_lbs_to_kg(self):
         """
         Test that lbs is converted to kg
         """
-        result = unitConverter.kg_to_lbs(90)
-        self.assertEqual(result, 200.0)
+        result = unitConverter.kg_to_lbs(145)
+        self.assertEqual(result, 65.25)
