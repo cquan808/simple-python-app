@@ -8,7 +8,7 @@ class PrintResults():
     def print_results(name, weight, unit_result):
         print(f"Hello {name}, your weight is {weight} in {unit_result}.")
 
-
+'''
 name = input("What is your name: ")
 try:
     weight = int(input("What is your weight: "))
@@ -16,14 +16,19 @@ except ValueError:
     print("Invalid value")
 
 unit = (input("(K)g or (l)bs: ")).upper()
+'''
+
+name = "Chris"
+weight = int(145)
+unit = "l"
 unit_result = ""
 
-if unit == "K":
+if unit.upper() == "K":
     unit_result = "lbs"
     weight = unitConverter.kg_to_lbs(weight)
     # print(f"Hello {name}, your weight is {weight} in {unit_result}")
     PrintResults.print_results(name, weight, unit_result)
-elif unit == "L":
+elif unit.upper() == "L":
     unit_result = "kg"
     weight = unitConverter.lbs_to_kg(weight)
     # print(f"Hello {name}, your weight is {weight} in {unit_result}")
