@@ -27,7 +27,7 @@ pipeline {
                     //This image parameter downloads the qnib:pytest Docker image and runs this image as a
                     //separate container. The pytest container becomes the agent that Jenkins uses to run the Test
                     //stage of your Pipeline project.
-                    image 'qnib/pytest'
+                    image 'cquan808/pytest'
                 }
             }
             steps {
